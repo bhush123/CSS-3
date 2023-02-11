@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.short-hand-property{
+
+    /* font: font-style  font-weight font-size/line-height font-family font-variant */
+
+    font: italic bold 20px/1.5 roboto; 
+    
+}

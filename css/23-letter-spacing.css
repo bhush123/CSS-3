@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.letterSpacing{
+
+    letter-spacing: normal; /*default value*/
+    letter-spacing: 6px;
+}
+
+
+/* The letter-spacing property in CSS is used to set the spacing between text characters. i.e increasing or decreasing the space between characters in a text.  */

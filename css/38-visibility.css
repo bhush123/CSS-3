@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+
+/* This property is used to specify whether an element is visible or not in a web document
+ but the hidden elements maintain dimensions in the web document. */
+
+
+
+.p1,.p2,.p3,.p4,.p5{
+
+    border: 2px solid red;
+}
+
+
+.p2{
+    visibility: visible; /*default value*/
+    visibility: hidden;  /*to hide the element but follows or maintain  its dimensions means  width and height.*/
+   
+    /* visibility: collapse;   collapse value is used for only table and collapse is alternative of cellspacing.  and in css padding  is alternative of cellpadding*/
+}
+
+/* This property is used to specify whether an element is visible or not in a web document
+ but the hidden elements maintain dimensions means its width and height in the web document. */

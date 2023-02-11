@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+.bold{
+
+    font-weight: normal; /*default value*/
+    font-weight: bold;
+    font-weight: bolder;
+    font-weight: lighter;
+
+    /*the range is 100 to 900 for font-weight in numeric value */
+
+    font-weight: 100;
+    font-weight: 200;
+    font-weight: 400; /*normal value */
+    font-weight: 500;
+    font-weight: 600; /*bold*/
+    font-weight: 900;  /*bolder*/
+   
+    
+}
+
+/* The font-weight property is used to set the weight or thickness of the font being used with html text */
+/*the range is 100 to 900 for font-weight in numeric value */

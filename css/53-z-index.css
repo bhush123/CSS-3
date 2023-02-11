@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+             
+.container{
+
+    position: relative;
+}
+.common{
+
+    width: 300px;
+    height: 300px;
+}
+
+.div-1{
+
+    background-color: brown;
+}
+
+.div-2{
+
+    background-color: aqua;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    z-index: -1;
+    z-index: 1;
+}
+
+
+/* The z-index CSS property is used to sets the z-order of a positioned element and its descendants.
+   z-index property is used with positioned elements.
+                                                                                         
+ 
+   eg. if we want bring second element at first number and first element at second number.
+ */                                                                                                                                         

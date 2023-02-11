@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+
+.textDec{
+
+    line-height: 1.5;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: red;
+
+    text-decoration: none;
+
+    text-decoration: underline;
+    text-decoration: dashed;
+    text-decoration: dotted;
+    text-decoration: line-through;
+    text-decoration: overline;
+    
+    /* short hand property */
+
+    text-decoration: underline double red;
+ 
+}

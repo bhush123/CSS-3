@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+.padding{
+
+    background-color: aqua;
+    border: 3px solid red;
+
+    padding-left: 35px;
+    padding-right: 30px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+
+
+    padding: 40px;                /* top, right, bottom and left = 40px*/
+    padding: 20px 60px;           /* top and bottom = 20px     left and right = 60px */
+    padding: 30px 40px 60px;      /* top = 30px   right and left = 40px    bottom = 60px */
+    padding: 30px 40px 35px 50px; /* top = 30px   right = 40px  bottom = 120px   left = 35px  */
+
+
+    
+
+
+}
+
+
+/* 
+
+CSS Padding: when we want to create space inside of the element then we can use padding.
+CSS margin: when we want to create space outside of the element then we can use margin.
+
+for content movement- we use padding.
+for element movement- we use margin.
+
+for example: we have <p> element and some content we added in it.here if we want to move <p> element then use margin but if we want move content which is present inside element then use padding. 
+
+1) If the padding property has 1 value:
+
+padding: 100px; 
+top, right, bottom and left = 100px
+
+2) If the padding property has 2 values: 
+
+padding: 100px 150px; 
+top and bottom = 100px;
+left and right = 150px;
+
+
+3) If the padding property has 3 values:
+
+padding: 40px 100px 120px; 
+top = 40px
+right and left = 100px
+bottom = 120px
+
+4) If the padding property has 4 values: 
+
+padding: 40px 100px 120px 80px; 
+top = 40px
+right = 100px
+bottom = 120px
+left = 80px
+
+ */

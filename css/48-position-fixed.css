@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+
+
+/* 
+position fixed property is used to fix the element on web page at one place but here element can not move after scrolling.
+by using top,bottom,left and right properties.
+ */
+
+
+a{
+    position: fixed;
+    right: 0;    
+    bottom: 20px;
+
+    /* left:0;
+    bottom: 0; */
+}
+
+p{
+    background-color: antiquewhite;
+}
+

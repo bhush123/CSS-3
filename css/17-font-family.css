@@ -1,0 +1,30 @@
+@charset "utf-8";
+.container{
+
+   font-family: Arial, Helvetica, sans-serif; 
+   font-family: sans-serif;
+   font-family: 'Times New Roman', Times, serif;
+   font-family: serif;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-family: monospace;
+   font-family: fantasy;
+   font-family: serif;
+   font-family: cursive;
+   font-family: sans-serif;
+
+
+
+}
+
+/* 
+
+font-family property is used to specifies the family-name or generic-family, for html element text.
+
+
+The font-family can be categorized into 2 types:
+
+family-name: It contains the name of a font-family, such as “times”, “courier”, “arial”, etc.
+generic-family: It contains name of a generic-family, such as”serif”, “sans-serif”, “cursive”, “fantasy”, “monospace”.
+Syntax: 
+*/

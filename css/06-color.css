@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+/* 
+
+CSS Color is used to set the color of HTML elements. 
+This property is used to set font color, background color etc.
+
+there are a six ways to set color of an html element in css-
+
+1) Built-In Color
+2) RGB Format  
+3) RGBA Format
+4) Hexadecimal Notation
+5) HSL format
+6) HSLA format
+
+*/
+
+
+/* 1) Built-In Color - 
+
+Ans-
+
+these are a set of predefined color which is used to set
+font color and background-color by its name like red, yellow, 
+blue ,green etc. 
+
+*/
+
+h1{
+    color: red;
+    background-color: aqua;
+}
+
+
+/* 
+2) rgb(red,green,blue) stands for red, greeen, blue -
+
+Ans-
+-rgb stands for red, greeen, blue.and
+-The rgb(red,green,blue) Format is used to set color and 
+ background-color of html element.
+-rgb range between 0 to 255. 0 is a lowest value and 255 is a highst value.
+
+rgb(255,0,0)--red
+rgb(0,255,0)--green
+rgb(0,0,255)--blue
+
+rgb(0,0,0)--black
+rgb(255,255,255)--white
+
+*/
+
+h2{
+    color: rgb(0, 255, 0);
+    background-color: rgb(0,0,255);
+}
+
+
+/* 3) rgba(red,green,blue,alpha) stand for red, green, blue, alpha -
+Ans- 
+-rgba stand for red, green, blue, alpha.
+-The rgba(red,green,blue,alpha) Format is a similar to rgb format but additional contains alpha(opacity) and is used to set color and 
+ background-color with opacity or tranceparency of html element.
+
+ alpha(opacity) range lies between 0.0 to 1.0 ,
+
+ 0- 0% opacity
+ 0.1- 10% opacity
+ 0.2- 20% opacity
+ 0.3- 30% opacity
+ |
+ | 
+ 0.9- 90% opacity
+ 1.0- 100% opacity
+ */
+
+ h3{
+    color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 0, 0, 0.5);
+ }
+
+/* 
+ 4) Hexadecimal value -
+
+ Ans-
+
+ The hexadecimal format is used to set color and background-color of an html element 
+ hexadecimal starts with # symbol and is a combination of leters and digit.
+ hexadecimal has a six character and each range between 0 to f.
+ color:#(0-F)(0-F)(0-F)(0-F)(0-F)(0-F);
+
+#ff0000 -red
+#00ff00 -green
+#0000ff -blue
+
+#000000 -black
+#ffffff -white
+
+*/
+
+h4{
+    color: #00ff00;
+    background-color: #0000ff;
+}
+
+
+
+/* 
+
+5) hsl format stand for hue, saturation, lightness-
+
+Ans-
+hsl format stand for hue, saturation, lightness. and
+the hsl format is used to set color and background-color to the html element 
+and hsl format uses the cylindrical coordinate system.
+
+Hue: Hue takes the degree value and its value lies between 0 to 360. 
+     where 0 represents red, 120 represents green and 240 represents blue color.
+
+Saturation: It takes percentage value, where 100% represents 
+            completely saturated, while 0% represents completely unsaturated (gray).
+
+Lightness: It takes percentage value, where 100% represents white, while 0% represents black.
+
+*/
+
+
+strong{
+
+    color: hsl(120, 70%, 80%);
+    background-color: hsl(0, 40%, 60%);
+}
+
+
+/* 
+6) hsla format stand for hue, saturation, lightness and alpha-
+
+Ans-
+hsla format stand for hue, saturation, lightness and alpha .and
+the hsla format is similar to hsl and is used to set color and background-color to the html element 
+and it contains alpha which represents opacity or transparency.
+
+*/
+
+
+
+em{
+
+    color: hsla(0, 40%, 0%, 0.4);
+    background-color: hsla(360, 40%, 50%, 0.4);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

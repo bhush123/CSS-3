@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+
+/* 
+overflow property is used to decides whether overflow content will be hided or scrolled.
+
+*/
+
+.overflow{
+    height: 400px;
+    width: 400px;
+    border: 2px red solid;
+    overflow: visible;  /*default value*/
+    overflow: hidden;  /*hidden value is used to hide overflow content or text*/
+    overflow: auto;
+    overflow: scroll;  /*here we can see all content by scrolling .same working like auto value*/
+
+    /* overflow-x: scroll;
+    overflow-y: visible; */
+
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+}
+
+div:hover img {
+    transform: scale(1.2);
+}
+

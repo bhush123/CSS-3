@@ -1,0 +1,29 @@
+@charset 'utf-8';
+/* 
+
+Group selector-
+
+Ans-
+
+Group selector is used to selects html elements or html tags in a group for apply same style.
+ and it is seperated by comma .
+*/
+
+h1, h3, p, .container, #heading, [width="300"], [height]{
+
+    border: 5px solid fuchsia;
+    background-color: #ff0;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

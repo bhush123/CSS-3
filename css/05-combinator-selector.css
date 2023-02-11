@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+/* 
+Combinator or sub selector- combinator selector is used to selects the html element for styling purpose.
+
+There are four different combinators in CSS:
+
+1) descendant selector (space)
+2) child selector (>)
+3) adjacent sibling selector (+)
+4) general sibling selector (~)
+
+*/
+
+/* 
+1) descendant selector (space)-
+
+Ans-
+
+-descendant selector is used to select html elment for styling purpose, 
+and descendant selector can apply style on both direct child as well as indirect child.
+
+
+*/
+
+div h1{
+           color:rgb(255, 255, 255);
+           background-color: rgba(255, 0, 0, 0.6); 
+}
+
+
+
+
+/* 
+2) 2) child selector (>)-
+
+Ans-
+
+child selector is used to select html element or tag for styling purpose,
+and child selector only can apply style on direct child not to the indirect child.
+
+*/
+ul > li{
+    background-color: black;
+    color: aliceblue;
+}
+
+
+
+
+/* 3) adjacent sibling selector (+) -
+
+Ans-
+
+
+/*
+ adjacent sibling selector is used to selects the single adjacent element of current
+ element for styling purpose.  */
+
+
+p + h1{
+
+    background-color: bisque;
+}
+
+
+
+/*
+4) general sibling selector (~)-
+
+Ans-
+
+ general sibling selector is used to selects all the adjacent element of current
+ element for styling purpose. 
+*/
+
+
+p ~ h3{
+
+    background-color: aquamarine;
+}

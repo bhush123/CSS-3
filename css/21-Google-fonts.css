@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/*copy from google font and applied by link method*/
+.FromGooglefont-By-link{
+
+    font-family: 'Roboto', sans-serif;      
+    
+}
+
+
+/*copy from google font and applied by import method*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+.FromGooglefont-By-import{
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+/* font used from folder after downloding in our system.*/
+
+@font-face {
+    font-family:bhushan ;
+    src: url(../fonts/Roboto-ThinItalic.ttf);
+}
+
+.FromFolder{
+
+    font-family:bhushan;
+
+}
+
+
+/* fallback- fallback means if one font-family is not present or available then use another font-familiy.
+
+for example-
+
+font-family:Hemant,cursive,serif;  if hemant font-family is not avalable then cursive will be applied if cursive is not available then serif family will be applied. this technique known as fallback means if one not present there then use another.
+
+*/

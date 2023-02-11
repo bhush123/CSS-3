@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+/* 
+background-image property is used to set background imgage of the html element.
+
+*/
+
+.backImage{
+
+    background-image: url(../image-1/photo-1544367567-0f2fcb009e0b.jpg);
+    height: 500px;
+    
+}

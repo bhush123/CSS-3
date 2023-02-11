@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/*  */
+
+/*
+Attribute selector - 
+
+attribute selector is used to select the html element or html tag for styling purpose by using atribute name as well as attribute name with specified value.
+which is written inside square brackets.
+
+syntax-   
+
+attribute name
+ 
+  [attr]{      
+                 
+ }                  
+  */
+
+[src]{                    
+    border: 5px red solid;
+}
+
+/* 
+
+Syntax-  
+
+attribute name with specified value
+
+ [attr="value"]{     
+
+}
+
+*/
+
+
+
+[width="200px"]{         
+    border: 10px solid goldenrod;
+}

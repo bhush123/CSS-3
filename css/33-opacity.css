@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+h1{
+    border: 2px solid blue;
+    width: 300px;
+    text-align: center;
+    background: red;
+    
+    
+    opacity:0.4;              /*0.1 to 1.0   0-->0%  0.1-->10%   0.2-->20% ----- 0.9-->90%   1.0-->100%*/
+    opacity: 40%;
+    opacity: 0.6;
+    opacity: 60%;
+}
+
+
+/* 
+opacity property is used to describe the transparency of an element. 
+The value of opacity lies between 0.0 to 1.0 .
+*/
+

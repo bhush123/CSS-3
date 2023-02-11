@@ -1,0 +1,15 @@
+@charset "utf-8"; /*this is the rule of css we have to give it.because utf converts all english words into the binary numbers for the machine beacause machine only understands binary numbers */
+
+h1{
+    background-color: aqua;
+    color: brown;
+}
+
+p{
+    background-color: burlywood;
+    color: greenyellow;
+}
+
+a{
+    text-decoration: none;
+}

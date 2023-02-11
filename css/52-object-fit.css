@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+
+/* 
+The CSS object-fit property is used to specify how an image or video should be resized to fit in its content box. 
+ */
+
+
+img{
+
+    border: 2px solid red;
+    width: 300px;
+    height: 800px;    
+
+    /*use this property in the case of image is rendering weired because of too much height is given */
+
+    object-fit: fill;
+    object-fit: contain;
+    object-fit: cover;     /* reccomend */
+    /* object-fit: none; */
+    
+
+}

@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.textIndent{
+
+    text-indent:0px ;
+    text-indent: 20px;
+    text-indent: -26px;
+    text-indent: 50px;
+}
+
+/* 
+text-indent property is used to set the indentation of the first line
+in each block or passage. 
+
+*/

@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.shadow{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 120px;
+    text-align: center;
+    /* color: white; */
+
+/* text-shadow : h-offset v-offset blur-radius color  */
+
+   text-shadow: 12px 0px 0px yellow;
+   text-shadow: 0px 12px 0px  red;
+   text-shadow: 12px 8px 5px goldenrod; 
+   text-shadow :  0px 0px 2px red, 2px 2px 5px blue, -10px -5px 5px green ;
+
+
+}
+
+
+/* 
+text-shadow property is used to apply the shadow to the html element by using h-offset , v-offset
+
+*/

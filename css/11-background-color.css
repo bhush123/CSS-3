@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+/* 
+background-color property is used to set background color of the html element.
+
+*/
+
+.paragraph{
+
+    /* background-color:red; */
+    /* background-color: transparent; */
+    background-color: #fd841f;
+}

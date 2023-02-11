@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+
+.section{
+
+    background-image: url(../image-1/photo-1544367567-0f2fcb009e0b.jpg);
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-attachment:scroll; /*this value is default*/
+    background-attachment: fixed;
+
+    
+
+}
+
+
+/* 
+background-attachment property is used to decides whether image will be in fixed or in scrolled .
+It can be applied to all HTML elements. 
+
+
+
+
+*/
+
+

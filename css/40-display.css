@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+
+/* display property is used to change the behaviour of element.either can be inline or block. */
+
+
+
+span{
+
+    height: 200px;
+    width: 300px;
+    background-color: aqua;
+    display: block;    /* now span inline element converted into block element by using this property*/
+
+
+
+     /* inline element does not follow  dimensions  means width and height can not apply*/
+    /*display : inline   - by default inline element does not have height and width but if we want to apply the dimesions means width and height then we have to write as display: block of that inline element then we can apply dimensions means width and height */
+
+}
+
+div{
+
+    height: 200px;
+    background-color: brown;
+    /* display: inline-block;      */
+     /*now div block element convrted into inline-block element */
+}
+
+
+/* 
+display :inline;    ------>for block to only inline  here does not follow dimensions means width and height we can not apply to inline element.
+display :inline-block;    ------>for block to inline-block here  follows dimensions means width and height we can apply to inline element.
+display :block;    ------> for inline to block here  follows dimensions means width and height we can apply to block element.
+
+
+*/

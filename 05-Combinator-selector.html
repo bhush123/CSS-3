@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinator selector</title>
+    <link rel="stylesheet" href="css/05-combinator-selector.css">
+</head>
+<body>
+<br><br><hr>
+<h2>descendant selector output </h2>
+
+<div>   <!--parent-->
+        
+           <h1>Good morning India</h1>   <!-- here <h1> tag is a direct child of div-->
+
+       <p> 
+            <h1>Good Afternoon Guys</h1>   <!--here <h1> tag is a indirect child of div.  because it is written in <p> tag but here h1 is direct child of <p> tag-->
+       </p>
+  
+</div>
+
+<hr>
+
+
+<h2>child selector output</h2><br><br>
+
+ <ul>  <!--parent-->
+
+      <li>Hello</li>  <!--direct child of ul-->
+      <li>Good</li>
+      <li>Morning</li>
+
+      <ol>
+        <li>Hii</li>  <!--indirect chid of ul-->
+        <li>I</li>
+        <li>Am</li>
+        <li>Bhushan</li>
+    </ol>
+
+</ul>
+
+
+<hr>
+
+<h2>Adjacent sibling selector output</h2><br>
+
+<p> Hii i am Bhushan Sontakke </p>
+<h1>Welcome to Maharashtra</h1>
+<h1>Welcome to Uttar pune</h1>
+<h1>Welcome to Banglore</h1><br><br><hr>
+
+
+<h2>general sibling selector output</h2>
+
+<p> Hii i am Bhushan Sontakke </p>
+<h3>Welcome to Maharashtra</h3>
+<h3>Welcome to Uttar pune</h3>
+<h3>Welcome to Banglore</h3>
+
+
+
+</body>
+</html>

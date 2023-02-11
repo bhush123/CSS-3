@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/*
+Selectors-
+
+Ans-
+
+A css selectors are used to select the html elements or html tags for styling purpose,
+and selector selects the html element or html tag by using class, id, type or element ,attributr etc.
+
+-There are many basic different types of selectors.
+
+1) Element Selector or type selector
+2) Id Selector
+3) Class Selector
+4) Universal Selector
+5) Group Selector
+6) Attribute Selector
+7) Pseudo-Class Selector
+8) Pseudo-Element Selector
+
+
+1) Universal selector- 
+
+Ans-
+
+universal selector is used to selects the all html elements or html tags for styling purpose which is present on html page.
+and  ' * ' repesents universal selector.
+
+*/
+
+/* 
+
+*{
+    background-color: aqua;
+    color: brown;
+    border: 2px solid black;
+
+} 
+
+*/
+
+/* 
+
+2)Element selector or Type selector-
+
+Ans-
+
+Element selector is used to selects html element or html tag for styling purpose.
+
+*/
+
+h2{
+    background-color: burlywood;
+    color: yellow;
+}
+
+
+/* 
+3) id selector -
+
+Ans-
+
+id is a unique identification and is used to selects html element or html tag for styling purpose by using id attribute,
+and if we used id once for any html element then this same id we can not use for other html element.
+it represent by ' # ' 
+
+*/
+
+#user{
+    background-color: cadetblue;
+    color: blueviolet;
+
+}
+
+/* 
+4) Class selector - 
+
+Ans-
+
+ class selector is used to select html element or html tag for styling purpose by using class attribute and 
+ same class can be used for one or more html elements.
+ class represents by ' . '
+
+*/
+
+.container{
+    background-color: red;
+    color: chartreuse;
+    border: 2px solid green;
+}
+
+

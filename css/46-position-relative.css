@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.relative{
+
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    color: #fff;
+    font-size: larger;
+    margin: 100px 0 0 100px;
+
+    position: relative;
+    left: 300px;
+    top:300px;
+}
+
+
+    /* position relative means element moves from its current position by using these properties like top,bottom,left and right. */
+
+    /* 
+    positions- position property is used to specify the positioning method for an element.
+
+    there are five types of positions.
+    1) static  (it is default property)
+    2) relative
+    3) absolute
+    4) fixed
+    5) sticky
+
+    
+    
+    */

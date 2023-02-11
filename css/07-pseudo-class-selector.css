@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+
+/* pseudo class -
+
+Ans-
+
+A pseudo class is used to apply some effect on specified html element after giving style.
+for example - hover , focus , active, visited etc.
+
+*/
+
+.container{
+
+    background-color: aqua;
+    color: red;
+    width: 300px;
+    height: 300px;
+    font-size: 25px;
+    font-weight: bold;
+    border: 5px solid red;
+  
+}
+
+.container:hover{        /*hover means when we will move mouse on it then will be changed the effect as per given style*/
+                     
+    background-color:cornflowerblue;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+}
+
+
+input:focus{     /*focus means when we click on it then will be changed the effect as per given style*/
+
+    background-color:skyblue;
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+a:visited{               /*this effect applies when we  will visit there */
+
+    color: red;
+}
+
+a:active{               /*this effect applies when we click on it*/
+    
+    color: black;
+    
+}
+
+a:link{       
+
+    color:blue
+}
+
+a:hover{
+
+    background-color: chartreuse;
+}
+
+ul{
+    list-style: none;
+}
+
+
+li{          /*li is a block element but here we converted into inline-block  */
+
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 30%;
+    margin-left: 10px;
+}
+
+li:first-child{
+
+    background-color: blue;
+}
+
+li:last-child{
+
+    background-color: brown;
+}
+
+li:nth-child(4){
+    background-color: black;
+}
+
+li:nth-child(7){
+
+    background-color: aquamarine;
+}
+
+
+/* li:nth-child(even){
+    
+    background-color: brown;
+} */
+
+/* li:nth-child(odd){
+
+    background-color: chartreuse;
+}
+ */
+
+#div{
+
+    height: 200px;
+    background-color: red;
+   
+}
+
+/* .clearHeight:empty{
+
+    height: 400px;
+} */
+
+
+
+
+
+

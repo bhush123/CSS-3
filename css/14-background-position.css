@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+
+.backgrond-position{
+    
+   
+    background-image: url(../image-1/josh-hild-M9c4cFFVgQk-unsplash.jpg);
+    height: 800px;  /*when we apply background-image propety then we have to give some height to block element that element we have used here we used section block element here . height is cumpulsory otherwise image won't show because block elements only takes full width by default that's why we have to give height here. but as per rule block element takes height automatically when we add some content in it as per content requirement.but here rule is different for background-image property we have to give height here manually */
+    background-color: aqua;
+
+    /* if  background-position property not working for any image then we have to resize it means that image open with paint and reduce pixel values then it will work*/
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-position: 0 0;
+    background-position: top right;
+    background-position: top left;
+    background-position: left center;
+    background-position: left bottom ;
+    background-position: left top;
+    background-position: bottom right;
+    background-position: bottom center;
+    background-position: bottom left ;
+    background-position: right center;
+    background-position: right top;
+    background-position: right bottom;
+    background-position: center center;  /*reccomend to use these all above values if we want to set our image on that already set values*/
+
+    background-position: 80% 20%;      /* reccomend to use this value also if we want to set our image by directions means now here 80% for x-axis and 20% for y-axis*/
+    background-position: 30% 50%;      /* here 30% for x-axis and 50% for y-axis*/
+
+    background-position: 100px 200px;   /*100px for x-axis and 200px for y-axis*/
+
+
+
+    /* 
+    background-position property is used to set the background image at a certain position. 
+
+    Syntax:
+
+          background-position: value;
+    
+    
+    background-position: left top;: This property is used to set the image at the left top.
+    background-position: left center;: This property is used to set the image at the left center.
+    background-position: center center;: This property is used to set the image at the center center position.
+    .
+    .
+    .
+    .so on for rest of property
+    
+    
+    */
+
+    
+
+
+}

@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+
+.textAlign{
+
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify; /*The text-justify property in CSS is used to set the text-align to justify. It spreads the words into the complete line. */
+
+    /* text-align-last: auto; 
+    text-align-last: left;
+    text-align-last: right;*/
+
+
+} 
+
+
+/* 
+
+text-align property is used to set the alignment of the text horizantaly by using these value auto,left,right and justify.
+
+*/

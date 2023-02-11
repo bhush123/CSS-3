@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.F-style{
+
+    font-style: normal; /*default value*/
+    font-style: italic;
+    font-style: oblique;
+
+}
+
+/* 
+
+A font-style CSS property is used to style the given particular text in a normal, italic, or oblique. 
+
+*/

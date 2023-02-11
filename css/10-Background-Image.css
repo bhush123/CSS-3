@@ -1,0 +1,104 @@
+@charset "utf-8";
+.container
+{
+    background-image:url(https://images.unsplash.com/photo-1620570623737-efc0ec4ab486?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHRlY2hub2xvZ3klMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60) ;
+    height: 450px;
+    background-repeat: repeat-x;
+
+}
+img{
+
+    width: 300px;
+    height: 200px;
+  
+}
+
+.imageClass{
+
+    border:gainsboro solid 1px;
+    border-radius:22px;
+
+}
+
+.figure{
+
+    display: inline-block;
+    width: 400px;
+    margin-left: 80px;
+    
+}
+
+#logo{
+
+    width: 100px;
+    height: 100px;
+    margin-left: 700px;
+    margin-top: 30px;
+    
+}
+
+#heading{
+
+    margin-left: 400px;
+    color: #fff;
+    font-size: 50px;
+}
+
+#blockquote{
+
+    margin-left: 430px;
+    color:#F5EDDC;
+    font-size: 25px;
+    font-style: oblique;
+
+}
+.blockquotes{
+
+    margin-left: 0px; 
+    font-style: oblique; 
+    font-weight: bold; 
+    font-size: 18px;
+    color: #815C9E;
+}
+
+.CompanyLogo{
+
+    height: 50px;
+    width: 50px;
+
+}
+
+.lable{
+
+    font-size: 20px;
+}
+
+#S{
+    margin-top: 300px;
+}
+
+input{
+
+    height: 30px;
+    width:150px;
+    border: none;
+    border-radius: 18px;
+    background-color: #F56C6D;
+    color: #fff;
+    margin-left: 50px;
+}
+
+input:hover{
+background-color: #815C9E;
+
+}
+
+.anchorLogo{
+    text-decoration: none;
+    color: #7974E3;
+}
+
+a{
+    text-decoration: none;
+    color:#000;
+}

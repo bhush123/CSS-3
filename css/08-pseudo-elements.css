@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+/* 
+What are Pseudo-Elements?
+Ans- pseudo-elements is used to apply style of specified html elements.
+
+For example-
+Style the first letter, or line, of an element
+Insert content before, or after, the content of an element.
+
+*/
+
+/* 
+::before -
+::before pseudo-element is used to insert or add some content before the present content of an html element.
+*/
+
+.heading::before{
+
+    content: "Good";
+
+}
+
+
+/* 
+::after -
+::after pseudo-element is used to insert or add some content after the present content of an html  element.
+*/
+
+.heading::after{
+
+    content: 'India';
+}
+
+
+/* 
+::first-letter -
+::first-letter pseudo element is used to apply style to first letter of an element.
+*/
+#blockquates::first-letter{
+
+    color: red;
+    font-size: 32px;
+
+}
+
+
+
+/* 
+::first-line -
+::first-line pseudo element is used to apply style to first line of a text.
+*/
+.paragraph::first-line{
+
+    color: orange;
+}
+
+
+/* 
+::placeholder-
+::placeholder pseudo element is used to apply style to the placeholder which is present inside input tag.
+ */
+::placeholder{
+
+    background-color: aqua;
+}
+

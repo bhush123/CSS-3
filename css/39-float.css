@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/* 
+
+The float CSS property is used to move or places an element either left side or right side of its container, allowing text and inline elements to wrap around it. 
+*/
+
+
+/* 
+clear proprty is used to move down a block element from floted elements.
+which block element would fit in between floated element.
+
+*/
+
+
+img{
+    float: none;  /*default value*/
+    float: left;
+    float: right;
+}
+
+.div1{
+    width: 250px;
+    height: 250px;
+    background-color: brown;
+    float: left;
+}
+
+.div2{
+    width: 250px;
+    height: 250px;
+    background-color:yellow;
+    float: right;
+}
+
+.p1{
+    clear: both;
+}

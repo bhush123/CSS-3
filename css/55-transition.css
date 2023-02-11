@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+.transition{
+
+    width: 300px;
+    height: 300px;
+    margin: 200px auto 0;
+    background-color: #000;
+
+    transition-duration: 5s;
+    transition-delay: 1000ms;
+    transition-timing-function: ease; /*default value*/
+    transition-timing-function: linear; /*same speed*/
+    transition-timing-function: ease-in; /**/
+    transition-timing-function: ease-out;
+
+    /* transition-property: all; */
+
+
+
+
+}
+
+.transition:hover{
+
+    transform: translateX(500px);
+    background: lightblue;
+}
+
+
+
+
+
+
+
+/* 
+The transition property in CSS is used to apply or add some transition effect on element. The transition is the combination of four properties which are listed below: 
+
+transition-duration
+transition-delay
+transition-timing-function
+transition-property
+
+transition-duration: it specifies total time to complete effect.
+transition-delay: It specifies the transition delay or time when transition starts.
+transition-timing-function: It specifies the speed of transition.
+transition-property: It specifies the CSS properties to which a transition effect should be applied.
+
+ease -   transition effect with a slow start, then fast, then end slowly (this is default)
+linear -   transition effect with the same speed from start to end
+ease-in -   transition effect with a slow start
+ease-out -   transition effect with a slow end
+ease-in-out -   transition effect with a slow start and end.
+cubic-bezier(n,n,n,n) - lets you define your own values in a cubic-bezier function 
+
+
+Syntax: 
+transition: transition-property transition-duration transition-timing-function transition-delay;  
+ */

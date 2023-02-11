@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+
+
+.div-1{
+
+    width: 300px;      
+    height: 300px;
+    background-color: aquamarine;
+    margin:50px 50px;
+    padding: 5px;
+    border: 5px solid red;
+   
+    box-sizing: content-box;   /*default value*/  
+
+    /*here total width will be 320 because here padding and border are not to be incuded or adjusted in available content width */
+
+    /* total width of element = content width + padding left + padding right + border left + border right.
+       total height of element = content height + padding top + padding bottom + border top + border bottom.
+
+     In total width and total height of an element margin will not considered.
+
+     */
+
+}
+
+
+.div-2{
+
+    width: 300px;        
+    height: 300px;
+    background-color: aquamarine;
+    margin:50px 50px;
+    padding: 5px;
+    border: 5px solid red;
+   
+    box-sizing: border-box;
+
+    /*here total width will be 300 beacuse here padding and border are to be included in avalaible content width and 
+     here content will be compressed to adjust padding and border in it */
+
+}
+
+
+
+
+/* 
+box-sizing-The box-sizing property in CSS defines how the user should calculate the total width and height of an element, 
+
+-i.e box-sizing is used to decides padding and borders, are to be included or not in available width and height.
+
+-content-box (default value)- when we use box-sizing as content-box that time width and height properties includes only the content.
+and does not includes border,padding,or margin in it.
+
+-border-box -when we use box-sizing as border-box that time width and height properties includes 
+content,padding and border,but not the margin. here content will be compressed to adjust padding and border in available fixed width.
+
+for example -suppose if we want to adjust or fit a 400 width size of element in avalaible 300 width size of element as it is then we can use border-box.
+
+*/

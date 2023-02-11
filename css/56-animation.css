@@ -1,0 +1,82 @@
+@charset "utf";
+
+.animation{
+
+    width: 300px;
+    height: 300px;
+    margin: 200px auto 0;
+    background-color: cyan;
+
+    animation-name: travel;  /*we can give name here anything as per our choice*/
+    animation-duration: 6000ms;
+    /* animation-delay: 01s; */
+    animation-iteration-count:infinite ;   /*we can give number also here means how many times will be animated*/
+    /* animation-iteration-count: 3; */
+    animation-direction: normal;
+    
+
+}
+/* 
+@keyframes travel {
+    
+    from{
+
+        transform: rotate(0deg);
+    }
+    to{
+
+        transform: rotate(720deg);
+    }
+} */
+
+
+@keyframes travel{
+
+    0%{
+
+        transform: scaleX(2);
+    }
+    40%{
+
+        transform: skewX(60deg);
+    }
+    70%{
+
+        transform: translateX(200px);
+    }
+    100%{
+        transform:rotate(180deg) ;
+
+    }
+}
+
+
+
+/* 
+ CSS Animation: CSS Animations is a technique to change the appearance and behavior of various elements in web pages.
+ It is used to control the elements by changing their motions or display. 
+
+
+ The @keyframes rule: Keyframes are the foundations with the help of CSS Animations works. 
+ 
+ Animation Properties: There are certain animation properties given below:
+ 
+ animation-name: It is used to specify the name of the @keyframes describing the animation.
+ 
+ animation-duration: It is used to specify the total time to complete the animation of an element.
+ 
+ animation-delay: It is used to specify the delay when the animation starts.
+ 
+ animation-iteration-count: It is used to specify the how many times the animation will repeat. 
+ 
+ animation-direction: Specifies the direction of the animation. It can have the following values: 
+
+normal: The animation is played forward. This is the default value.
+reverse: The animation is played in the reverse direction i.e. backward.
+alternate: The animation is played forwards first, and then backward.
+alternate-reverse: The animation is played backward first, and then forwards.
+ 
+
+
+visit geeksforgeeks and w3 school to see more animation effect to apply.
+*/

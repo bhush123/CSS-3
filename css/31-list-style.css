@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+menu{
+
+    border: 2px solid red;
+    width: 400px;
+    
+}
+
+
+li{
+    border: 2px solid black;
+    font-size: larger;
+    
+    list-style-type: disc;
+    list-style-type: none;
+    list-style-type: upper-alpha;
+    list-style-type: lower-alpha;
+    list-style-type: lower-roman;
+    list-style-type: upper-roman;
+    list-style-type: lower-latin;
+    list-style-type: upper-latin;
+
+
+    list-style-image: none;
+    list-style-image: url(/02-CSS/image-1/rightArrow.jpg);
+    list-style-position: inside;
+    
+}

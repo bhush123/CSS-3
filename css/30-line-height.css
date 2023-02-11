@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+p{
+
+    line-height: normal; 
+    line-height:25px;
+    line-height: 1.5;  /* 1.5 is a multiplyer means 1.5 * font-size */
+    
+}
+
+/* 
+line-height property in css is used to provide height between two line.
+*/

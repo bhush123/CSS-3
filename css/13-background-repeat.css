@@ -1,0 +1,21 @@
+
+@charset "utf-8";
+
+/* 
+background-repeat -
+The background-repeat property in CSS is used to repeat the background image both horizontally and vertically. 
+It also decides whether the background-image will be repeated or not. */
+
+.backImage{
+
+    background-image: url(../image-1/photo-1544367567-0f2fcb009e0b.jpg);
+    height: 1000px;
+    background-size: cover; /*to take full width of display or sreen*/
+
+    
+    /* background-repeat:repeat;        /* default value */
+     background-repeat:no-repeat;     /*image won't repeat */
+    /* background-repeat:repeat-x; */     /*image will repeat along x axis*/
+    /* background-repeat:repeat-y; */     /*image will repeat along y axis*/
+    
+}

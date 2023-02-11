@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.background-size{
+
+    background-image: url(../image-1/josh-hild-M9c4cFFVgQk-unsplash.jpg);
+    height: 1000px;
+    background-color: aqua;
+    background-repeat: no-repeat;
+
+    background-size: auto; /*default value*/
+    background-size: 100% 100%;   /*this value not reccomend to use*/
+    background-size: contain;     /*contain value only covers full size either x-axis or y-axis does not cover both side x and y.*/
+    background-size: cover;       /* cover value covers full size of element along both x-axis and y-axis*/
+
+ /* the background-size property is used to set the size of the background image using these value such as contain,cover,auto etc. */
+
+}

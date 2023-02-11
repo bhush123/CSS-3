@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+
+
+.div-1{
+
+    width: 400px;
+    height: 300px;
+    margin: 100px auto 0;
+
+    background: linear-gradient(black , red , green, yellow, purple);
+    background: linear-gradient(to left, black , red , green, yellow, purple);
+    background: linear-gradient(to right, black , red , green, yellow, purple);
+    background: linear-gradient(to top, black , red , green, yellow, purple);
+    background: linear-gradient(to bottom, black , red , green, yellow, purple);
+
+    background: linear-gradient(to right, #3494e6, #ec6ead);   /*copied from uigradient.com*/
+    background: linear-gradient(to bottom, #a9e4f7 39%,#9fbf01 100%);  /*created from colorzilla.com*/
+}

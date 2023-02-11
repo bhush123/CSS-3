@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+
+/* 
+border property is used to apply border to the element and this property takes three value border-width,border-style and border-color.
+
+there are two types of border 1) Additive border- it will add the borders. 2) subtractive border- it will remove the borders.
+
+*/
+
+:empty{
+    width: 300px;
+    height: 300px;
+    background-color: crimson;
+    margin: 200px auto 0;          /*top=200px , left and right =center(auto), bottom=0px*/
+}
+
+.div-1{
+
+    /* top side width */
+
+    border-top-width: medium;  /*default value*/
+    border-top-width: thin;
+    border-top-width: thick;
+    border-top-width: 10px;
+    
+   /* top side border style */
+    border-top-style: solid;   /*default value*/
+    border-top-style: dashed;
+    border-top-style: double;
+    border-top-style: dotted;
+    border-top-style: dotted;
+
+    /* top side border color */
+
+    border-top-color:black;   /*default value*/
+    border-top-color:aquamarine;
+    border-top-color:red;
+    border-top-color:purple;
+    border-top-color:yellow;
+
+
+
+   /*right side border  */
+
+   border-right-width:5px;
+   border-right-style:solid;
+   border-right-color:blue;
+   
+
+
+   /*bottom side border  */
+
+   border-bottom-width:5px;
+   border-bottom-style:double;
+   border-bottom-color:yellow;
+   
+
+
+   /*left side border  */
+
+   border-left-width:10px;
+   border-left-style:ridge;
+   border-left-color:plum;
+   
+
+
+   /* short hand property */
+
+   border-top:10px solid wheat;
+   border-right: 8px dotted purple;
+   border-bottom: thick  double blue;
+   border-left: 5px  ridge navajowhite;
+
+   /* for all side short hand */
+
+   border: 5px solid plum ;
+
+}
+

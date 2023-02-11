@@ -1,0 +1,56 @@
+@charset "utf";
+
+
+.background-image{
+     
+    height:1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../image-1/photo-1544367567-0f2fcb009e0b.jpg);
+    
+
+}
+
+#user{
+
+    margin-left: 500px;
+}
+
+button{
+    background-color:#F56C6D;
+    border: none;
+    height: 40px;
+    width: 150px;
+    border-radius: 40px;
+    margin-left: 250px;
+    font-size: 12px;
+    
+   
+}
+
+button:hover{
+
+    background-color:#815C9E ;
+}
+
+button a{
+    text-decoration: none;
+    color: #fff;
+    
+
+
+}
+
+h1{
+    font-size:40px; 
+    color: #fff;
+font-family: serif;
+
+
+}
+
+p{
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-left: 20px;
+}

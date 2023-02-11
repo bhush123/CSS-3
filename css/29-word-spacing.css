@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+p{
+    word-spacing: normal; /*default value*/
+    word-spacing: 16px;
+    /* word-spacing: -10px; */
+}
+
+
+/* 
+word-spacing property in css is used to create the space between two words.
+
+*/

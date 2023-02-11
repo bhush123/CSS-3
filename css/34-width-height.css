@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+span{
+
+    height: 100px;
+    width: 300px;    
+    background-color: rgb(193, 127, 27); 
+
+    /* inline element does not follow  dimensions  means width and height can not apply*/
+    /*display : inline   - by default inline element does not have height and width but if we want to apply the dimesions means width and height then we have to write as display:block of that inline element then we can apply dimensions means width and height */
+
+    display: block;
+
+}
+
+div{
+
+    background-color: aqua;
+    height: 100px;
+
+    /* display:block  - block elements by default have only full width but height is not present there that's why we have to apply some height as per our requirement otherwise after adding content in block element height will be achieve as per content requirement automatically*/
+
+    /* display:inline-block  property behaviour is same like a display:inline but when we write display:inline-block then we able to apply dimenssions(width and height) of that element after converting into inline element. and when we write display:inline then we do not able to apply dimenssions(width and height) of that element.  */
+}

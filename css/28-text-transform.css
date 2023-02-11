@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+p{
+    text-transform: none; 
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;  /*only first letter of will be capital*/
+}
+
+
+/* text-transform property is used to transform the text format lowercase to uppercase and uppercase to lowercase. */

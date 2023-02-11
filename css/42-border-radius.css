@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+ /* 
+ border-radius property is used to apply or set border radius at border edge corner.
+ This property can contain one, two, three, or four values. 
+  */
+
+.div-1{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    margin: 100px auto 0;
+    border:5px solid purple;
+   
+   
+    border-top-left-radius: 5px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 20px;
+
+    border-radius:100px ;
+    border-radius: 80px 120px;
+    border-radius: 120 150px 200px;
+    border-radius: 150px 200px 50px 20px;
+
+    border-radius: 50%;
+    /* border-radius: 100%;  */
+
+}
+
+
+.img-1{
+
+    /* if we have to create image in circular format then keep width and heigth of image should be same then provide radius as 50%*/
+
+    height: 300px;
+    width: 300px;
+    
+    border-radius: 50%;
+   
+    border: 3px solid rgba(255, 0, 237,0.3);
+    border: 3px solid #f3f3;  /*  last 3 is a opacity*/
+}
+

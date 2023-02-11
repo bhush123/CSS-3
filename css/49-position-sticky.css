@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+
+
+/*
+position sticky is used to set the element in sticky position but here element can move till the sticky position condition  
+after scroliing and then element will be stick.
+*/
+
+
+
+
+
+*{
+    margin: 0;
+    font-size: 14px;
+    font-family: sans-serif;
+
+}
+
+section{
+
+    height: 40px;
+    background-color: green;
+    position: sticky;
+    top:0;
+    /* text-align: center; */
+    
+    
+}
+
+.div-1{
+    display: inline-block;
+    width: 50px;
+    margin-left: 0px;
+   /* padding-top: 10px; */
+
+    /* background-color: aquamarine; */
+
+}
+
+.div-2{
+    display: inline-block;
+    width: 1200px;
+    padding-top: 12px;
+    text-align: center;
+    
+    /* background-color: aquamarine; */
+    
+    
+}
+
+#menuIcon{
+
+    margin-left: 20px;
+
+}
+
+
+li{
+      
+    display: inline;
+   padding: 0 20px;
+    
+   /* background-color: aqua; */
+    
+
+}
+
+li:hover{
+
+    background-color:black;
+    padding: 12px;
+
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+
+

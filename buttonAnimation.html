@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <style>
+ 
+ .Playbtn{
+    height: 50px;
+    width: 50px;
+    background:linear-gradient(#f5cb82 ,#eabd70);
+    color: #fff;
+    display: grid;
+    place-items: center;
+    margin: 300px auto;
+    border-radius: 50%;
+    position: relative;
+
+ }
+
+ i{
+font-size:1.5rem;
+
+ }
+
+ .Playbtn:before,
+ .Playbtn:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #eabd70;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0.7;
+}
+.Playbtn:before{
+    animation: play 2s ease-out infinite;
+}
+
+.Playbtn:after{
+    animation: play 2s 1s  ease-out infinite;
+}
+
+@keyframes  play{
+100%{
+    transform: scale(2.5);
+    opacity: 0;
+}
+}
+
+
+    </style>
+</head>
+<body>
+    
+<div class="Playbtn">
+    <i class="bi bi-play-fill"></i>
+</div>
+
+</body>
+</html>
